@@ -1,2 +1,2 @@
-# chicken-client-repair-files
-Repair files required by the Repair Tool
+# Chicken Client Repair
+Downloads the required files to repair Chicken Client.
