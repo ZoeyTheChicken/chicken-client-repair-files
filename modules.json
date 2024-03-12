@@ -1,0 +1,530 @@
+{
+  "version": 0.1,
+  "ARMORHUD": {
+    "enabled": true,
+    "posX": -4.0,
+    "posY": 66.0,
+    "anchorPoint": "CENTER_RIGHT",
+    "properties": {
+      "SCALE": 1.0,
+      "SHOWBAR": true
+    }
+  },
+  "ARROWCOUNTER": {
+    "enabled": true,
+    "posX": -72.0,
+    "posY": -25.0,
+    "anchorPoint": "BOTTOM_RIGHT",
+    "properties": {
+      "SCALE": 1.0,
+      "TEXTCOLOR": {
+        "value": -1
+      },
+      "BACKGROUND": true,
+      "BACKGROUNDCOLOR": {
+        "value": 1258291200
+      },
+      "BORDER": false,
+      "BORDERCOLOR": {
+        "value": -1
+      }
+    }
+  },
+  "BWSTATSOVERLAY": {
+    "enabled": false,
+    "posX": 47.0,
+    "posY": 63.0,
+    "anchorPoint": "TOP_CENTER",
+    "properties": {
+      "Stats.keybind": 200,
+      "ClearStats.keybind": 57
+    }
+  },
+  "COORDINATES": {
+    "enabled": true,
+    "posX": 2.0,
+    "posY": 59.0,
+    "anchorPoint": "TOP_LEFT",
+    "properties": {
+      "SCALE": 1.0,
+      "BACKGROUND": true,
+      "BACKGROUNDCOLOR": {
+        "value": 1258291200
+      },
+      "TEXTSHADOW": false,
+      "TEXTCOLOR": {
+        "value": -1
+      }
+    }
+  },
+  "CPSDISPLAY": {
+    "enabled": true,
+    "posX": -2.0,
+    "posY": 1.0,
+    "anchorPoint": "TOP_RIGHT",
+    "properties": {
+      "SCALE": 1.0,
+      "BACKGROUND": true,
+      "BACKGROUNDCOLOR": {
+        "value": 1258291200
+      },
+      "BACKGROUNDWIDTH": 5,
+      "BACKGROUNDHEIGHT": 5,
+      "BORDER": false,
+      "BORDERCOLOR": {
+        "value": -1
+      },
+      "TEXTSHADOW": false,
+      "TEXTCOLOR": {
+        "value": -1
+      },
+      "MODE": 2
+    }
+  },
+  "DIRECTION": {
+    "enabled": true,
+    "posX": 3.0,
+    "posY": 6.0,
+    "anchorPoint": "TOP_CENTER",
+    "properties": {
+      "COLOR": {
+        "value": -1
+      },
+      "BACKGROUND": false,
+      "BACKGROUNDCOLOR": {
+        "value": 1006632960
+      }
+    }
+  },
+  "FPS": {
+    "enabled": true,
+    "posX": 2.0,
+    "posY": 92.0,
+    "anchorPoint": "TOP_LEFT",
+    "properties": {
+      "SCALE": 1.0,
+      "BACKGROUND": true,
+      "BACKGROUNDCOLOR": {
+        "value": 1258291200
+      },
+      "BACKGROUNDWIDTH": 5,
+      "BACKGROUNDHEIGHT": 5,
+      "BORDER": false,
+      "BORDERCOLOR": {
+        "value": -1
+      },
+      "TEXTSHADOW": false,
+      "TEXTCOLOR": {
+        "value": -1
+      }
+    }
+  },
+  "HPXLHEIGHTLIMIT": {
+    "enabled": true,
+    "posX": 50.0,
+    "posY": -3.0,
+    "anchorPoint": "BOTTOM_LEFT",
+    "properties": {
+      "SCALE": 1.0,
+      "BACKGROUND": true,
+      "BACKGROUNDCOLOR": {
+        "value": 1258291200
+      },
+      "BACKGROUNDWIDTH": 5,
+      "BACKGROUNDHEIGHT": 5,
+      "TEXTSHADOW": false,
+      "TEXTCOLOR": {
+        "value": -1
+      }
+    }
+  },
+  "KEYSTROKES": {
+    "enabled": true,
+    "posX": -5.0,
+    "posY": -3.0,
+    "anchorPoint": "BOTTOM_RIGHT",
+    "properties": {
+      "MODE": 0,
+      "BOXCOLOR": {
+        "value": 855572480,
+        "chromaSpeed": 42
+      },
+      "BOXPRESSEDCOLOR": {
+        "value": 1694498815,
+        "chromaSpeed": 44
+      },
+      "BOXSIZE": 20.0,
+      "FADE": 250,
+      "SHOWCPS": true,
+      "TEXTCOLOR": {
+        "value": -1
+      },
+      "OUTLINE": false,
+      "OUTLINECOLOR": {
+        "value": 1677721600
+      }
+    }
+  },
+  "MEMORYUSAGE": {
+    "enabled": true,
+    "posX": 1.0,
+    "posY": 2.0,
+    "anchorPoint": "TOP_LEFT",
+    "properties": {
+      "SCALE": 1.0,
+      "BACKGROUND": true,
+      "BACKGROUNDCOLOR": {
+        "value": 1258291200
+      },
+      "BACKGROUNDWIDTH": 5,
+      "BACKGROUNDHEIGHT": 5,
+      "BORDER": false,
+      "BORDERCOLOR": {
+        "value": -1
+      },
+      "TEXTSHADOW": false,
+      "TEXTCOLOR": {
+        "value": -1
+      }
+    }
+  },
+  "PACKOVERLAY": {
+    "enabled": false,
+    "posX": 0.0,
+    "posY": 0.0,
+    "anchorPoint": "TOP_CENTER",
+    "properties": {
+      "SCALE": 1.0,
+      "SHOWICON": true,
+      "SHOWDESCRIPTION": true,
+      "SHOWBACKGROUND": true
+    }
+  },
+  "PINGDISPLAY": {
+    "enabled": true,
+    "posX": 2.0,
+    "posY": 38.0,
+    "anchorPoint": "TOP_LEFT",
+    "properties": {
+      "SCALE": 1.0,
+      "BACKGROUND": true,
+      "BACKGROUNDCOLOR": {
+        "value": 1258291200
+      },
+      "BACKGROUNDWIDTH": 5,
+      "BACKGROUNDHEIGHT": 5,
+      "BORDER": false,
+      "BORDERCOLOR": {
+        "value": -1
+      },
+      "TEXTSHADOW": false,
+      "TEXTCOLOR": {
+        "value": -1
+      }
+    }
+  },
+  "POTIONHUD": {
+    "enabled": false,
+    "posX": 0.0,
+    "posY": 0.0,
+    "anchorPoint": "TOP_CENTER",
+    "properties": {
+      "TEXTSHADOW": true,
+      "BLINK": true
+    }
+  },
+  "REACHDISPLAY": {
+    "enabled": false,
+    "posX": 0.0,
+    "posY": 0.0,
+    "anchorPoint": "TOP_CENTER",
+    "properties": {
+      "SCALE": 1.0,
+      "BACKGROUND": true,
+      "BACKGROUNDCOLOR": {
+        "value": 1258291200
+      },
+      "BACKGROUNDWIDTH": 5,
+      "BACKGROUNDHEIGHT": 5,
+      "TEXTSHADOW": false,
+      "TEXTCOLOR": {
+        "value": -1
+      }
+    }
+  },
+  "SCOREBOARD": {
+    "enabled": true,
+    "posX": -3.0,
+    "posY": -18.0,
+    "anchorPoint": "CENTER_RIGHT",
+    "properties": {
+      "SCALE": 1.0,
+      "BACKGROUND": true,
+      "BACKGROUNDCOLOR": {
+        "value": 1258291200
+      }
+    }
+  },
+  "SPEEDOMETER": {
+    "enabled": true,
+    "posX": -72.0,
+    "posY": -4.0,
+    "anchorPoint": "BOTTOM_RIGHT",
+    "properties": {
+      "SCALE": 1.0,
+      "BACKGROUND": true,
+      "BACKGROUNDCOLOR": {
+        "value": 1258291200
+      },
+      "BACKGROUNDWIDTH": 5,
+      "BACKGROUNDHEIGHT": 5,
+      "BORDER": false,
+      "BORDERCOLOR": {
+        "value": -1
+      },
+      "TEXTSHADOW": false,
+      "TEXTCOLOR": {
+        "value": -1
+      },
+      "DECIMALPOINTS": 2,
+      "UNIT": 0
+    }
+  },
+  "TIMEDISPLAY": {
+    "enabled": true,
+    "posX": 1.0,
+    "posY": 20.0,
+    "anchorPoint": "TOP_LEFT",
+    "properties": {
+      "SCALE": 1.0,
+      "BACKGROUND": true,
+      "BACKGROUNDCOLOR": {
+        "value": 1258291200
+      },
+      "BACKGROUNDWIDTH": 5,
+      "BACKGROUNDHEIGHT": 5,
+      "BORDER": false,
+      "BORDERCOLOR": {
+        "value": -1
+      },
+      "TEXTSHADOW": false,
+      "TEXTCOLOR": {
+        "value": -1
+      }
+    }
+  },
+  "TOGGLESPRINT": {
+    "enabled": true,
+    "posX": 1.0,
+    "posY": -53.0,
+    "anchorPoint": "BOTTOM_CENTER",
+    "properties": {
+      "SCALE": 1.0,
+      "BACKGROUND": true,
+      "BACKGROUNDCOLOR": {
+        "value": 1258291200
+      },
+      "BACKGROUNDWIDTH": 5,
+      "BACKGROUNDHEIGHT": 5,
+      "BORDER": false,
+      "BORDERCOLOR": {
+        "value": -1
+      },
+      "TEXTSHADOW": false,
+      "TEXTCOLOR": {
+        "value": -1
+      }
+    }
+  },
+  "3DSKIN": {
+    "enabled": true,
+    "properties": {
+      "ENABLEHAT": true,
+      "ENABLEBODY": true,
+      "ENABLELEFTARM": true,
+      "ENABLERIGHTARM": true,
+      "ENABLELEFTPANT": true,
+      "ENABLERIGHTPANT": true,
+      "BODYSCALE": 1.15,
+      "HEADSCALE": 1.18,
+      "BODYWIDTH": 1.05,
+      "RENDERDISTANCE": 14
+    }
+  },
+  "AUTOFRIEND": {
+    "enabled": false
+  },
+  "AUTOGG": {
+    "enabled": true
+  },
+  "AUTOGLHF": {
+    "enabled": true
+  },
+  "AUTOTEXT": {
+    "enabled": true,
+    "properties": {
+      "key1.keybind": 79,
+      "COMMAND1": "Hi",
+      "key2.keybind": 80,
+      "COMMAND2": "Hi",
+      "key3.keybind": 81,
+      "COMMAND3": "Hi",
+      "key4.keybind": 75,
+      "COMMAND4": "Hi",
+      "key5.keybind": 76,
+      "COMMAND5": "Hi"
+    }
+  },
+  "BLOCKOVERLAY": {
+    "enabled": true,
+    "properties": {
+      "COLOR": {
+        "value": 1677721600
+      },
+      "WIDTH": 2.0,
+      "IGNOREDEPTH": false,
+      "PERSISTENT": false,
+      "FILL": false,
+      "FILLCOLOR": {
+        "value": -1778384896
+      }
+    }
+  },
+  "BOOSBARMOD": {
+    "enabled": true,
+    "properties": {
+      "HIDETITLE": false,
+      "HIDEBAR": false
+    }
+  },
+  "CHAT": {
+    "enabled": true,
+    "properties": {
+      "COLOR": {
+        "value": 838860800
+      },
+      "SHADOW": true,
+      "SHOWCHATBACKGROUND": true
+    }
+  },
+  "CROSSHAIR": {
+    "enabled": true,
+    "properties": {
+      "MODE": 0,
+      "COLOR": {
+        "value": -1
+      },
+      "SIZE": 16,
+      "GAP": 4,
+      "THICKNESS": 2.0,
+      "DOT": false,
+      "DOTCOLOR": {
+        "value": -1
+      },
+      "SHOWINTHIRDPERSONVIEW": false
+    }
+  },
+  "ENCHANTMENTGLINTCOLOR": {
+    "enabled": false,
+    "properties": {
+      "COLOR": {
+        "value": 1694498815
+      }
+    }
+  },
+  "FULLBRIGHT": {
+    "enabled": true
+  },
+  "HITMOD": {
+    "enabled": true,
+    "properties": {
+      "PARTICLE": false,
+      "FILLCOLOR": {
+        "value": 1694433280
+      }
+    }
+  },
+  "ITEMPHYSICS": {
+    "enabled": true,
+    "properties": {
+      "ROTATIONSPEED": 15
+    }
+  },
+  "MINIMVIEWBOBBING": {
+    "enabled": true
+  },
+  "MOTIONBLUR": {
+    "enabled": false,
+    "properties": {
+      "BLURAMOUNT": 5
+    }
+  },
+  "NICKHIDER": {
+    "enabled": false,
+    "properties": {
+      "NAME:": "You",
+      "TEXTCOLOR": {
+        "value": -1
+      }
+    }
+  },
+  "NOHURTCAM": {
+    "enabled": true
+  },
+  "OLDANIMATIONS": {
+    "enabled": true,
+    "properties": {
+      "BLOCKHIT": false,
+      "EATING": false,
+      "BOW": false,
+      "BUILD": false,
+      "ROD": false,
+      "SWING": false,
+      "BLOCK": false,
+      "DAMAGE": false
+    }
+  },
+  "QUICKPLAY": {
+    "enabled": false,
+    "properties": {
+      "qp.keybind": 210
+    }
+  },
+  "SWORDANIMATIONS": {
+    "enabled": true,
+    "properties": {
+      "SWINGSPEED": 5,
+      "SCALE": 0.5,
+      "ANIMATIONTYPE": 0,
+      "ONLYSWORD": true,
+      "sw.keybind": 42
+    }
+  },
+  "TABLIST": {
+    "enabled": true,
+    "properties": {
+      "DISABLEHEADER": false,
+      "DISABLEFOOTER": false,
+      "DISABLEPLAYERHEAD": true,
+      "SHOWPINGNUMBER": true,
+      "HIDEPING": false,
+      "DYNAMICPINGCOLOR": false
+    }
+  },
+  "TEXT": {
+    "enabled": false,
+    "properties": {
+      "TITLESIZE": 4.0,
+      "SUBTITLESIZE": 2.0
+    }
+  },
+  "TIMECHANGER": {
+    "enabled": false,
+    "properties": {
+      "TIME": 3
+    }
+  },
+  "TNTTIMER": {
+    "enabled": true
+  }
+}
